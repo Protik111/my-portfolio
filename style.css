@@ -1,0 +1,237 @@
+body {
+    
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+
+}
+
+.half-width {
+
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 2%; 
+
+}
+
+
+.half-width img{
+    width: 100%; 
+}
+
+h1 {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+h2 {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 700;  
+}
+section {
+
+    height: 500px;
+    padding-bottom: 100px;
+    
+}
+.img-size {
+
+    height: 550px;
+}
+.top-bannner{
+
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.Protik-color{
+
+    color:#F51678;
+}
+
+
+.button-link{
+
+    text-decoration: none;
+    background-image: linear-gradient(180deg, #F51678, #F51678 );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+
+.biography {
+    
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.latest-work-img{
+    
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.latest-work-header{
+    
+    text-align: center;
+    
+}
+.portfolio-img img{
+    
+    width: 300px;
+    height: 270px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.address{
+    
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.address{
+    
+    text-align: center;
+    
+}
+
+.name{
+
+    text-align: center;
+    
+}
+
+.name p{
+    
+    color: #434242;
+}
+
+.message{
+
+    width: auto;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    height: 30%;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color:#F51678 ;
+    padding: 20px 10px;
+   
+}
+
+.footer{
+
+    color:black;   
+    text-align: center; 
+}
+
+.email {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.message p{
+    color: white;
+    margin-top: 20px;
+}
+
+.skill-header{
+    color: white;
+    background-image: linear-gradient(180deg, #F51678, #F51678 );
+    font-weight: 700;
+    width: 15%;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+
+}
+#skill1{
+    background-color: deepskyblue;
+    width: 40%;
+    padding-left: 7px;
+    border-radius: 8px;
+}
+#skill1::after{content: "     -50%";}
+
+#skill2{
+    background-color: deepskyblue;
+    width: 30%;
+    padding-left: 7px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+#skill2::after{content: "       -40%";}
+
+#skill3{
+    background-color: deepskyblue;
+    width: 25%;
+    padding-left: 7px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+#skill3::after{content: "       -30%";}
+
+#skill4{
+    background-color: deepskyblue;
+    width: 60%;
+    padding-left: 7px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+#skill4::after{content: "       -70%";}
+#skill5{
+    background-color: deepskyblue;
+    width: 55%;
+    padding-left: 7px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+#skill5::after{content: "       -60%";}
+
+#skill1:hover{
+    background-color: dodgerblue;
+    font-weight: 700;
+}
+
+#skill2:hover{
+    background-color: dodgerblue;
+    font-weight: 700;
+}
+
+#skill3:hover{
+    background-color: dodgerblue;
+    font-weight: 700;
+}
+
+#skill4:hover{
+    background-color: dodgerblue;
+    font-weight: 700;
+}
+
+#skill5:hover{
+    background-color: dodgerblue;
+    font-weight: 700;
+}
